@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         gamescore.setObject(false, forKey: "cheatMode")
         //设置age为18
         gamescore.setObject(19, forKey: "age")
+        
+        //文档中关于这部分方法的调用都是错误的，修改后可行
         gamescore.saveInBackground(resultBlock: {isSuccessful,error in
             print("可以")
             if error != nil{
