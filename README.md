@@ -1,0 +1,3 @@
+＃bmobSwiftExample
+bmob使用的的的的的的的的的的的的的的CocoaPods导入错误，只能手动拖入SDK使用
+关于迅速文档部分方法调用代码错误，现在提供一个可以修改过后可以使用的demo。
